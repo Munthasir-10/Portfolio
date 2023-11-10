@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "site": "portfolio-munthasir-10",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
