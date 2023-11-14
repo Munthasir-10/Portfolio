@@ -35,8 +35,10 @@ fi<!DOCTYPE html>
         <h1>Mohammed Munthasir</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eius
-          illum ipsam suscipit, impedit voluptate at voluptates.
+          I'm a passionate and skilled web developer with a keen interest in creating
+      innovative and user-friendly websites. My expertise includes front-end and
+      back-end technologies, and I am dedicated to delivering high-quality
+      solutions that meet client needs. Let's turn ideas into reality!
         </p>
 
         <div class="social-media">
@@ -62,12 +64,12 @@ fi<!DOCTYPE html>
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Frontend Developer!</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In maxime ad,
-          velit obcaecati ex soluta aspernatur quo fugit illum tempora
-          cupiditate, vel laborum maiores impedit reprehenderit facere est
-          corporis modi, rerum doloribus perferendis quibusdam. Explicabo
-          inventore quae quo autem amet. Numquam a repellendus sed labore
-          pariatur.
+          Hi there! I'm Mohammed Munthasir, a passionate frontend developer
+      dedicated to creating seamless and visually appealing user experiences. I
+      specialize in crafting responsive and user-friendly websites using the
+      latest technologies such as HTML, CSS, React JS and JavaScript. My goal is to
+      transform ideas into engaging digital experiences that leave a lasting
+      impression. Let's build something amazing together!
         </p>
         <a href="" class="btn">Read more</a>
       </div>
@@ -83,9 +85,10 @@ fi<!DOCTYPE html>
           <i class="bx bx-code-alt"></i>
           <h3>Web Develpment</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            error obcaecati ea quibusdam, maiores quam. Optio quasi tenetur unde
-            molestias?
+            We specialize in crafting dynamic and responsive websites that not only
+            look great but also deliver exceptional user experiences. Whether you
+            need a brand new site or want to revamp an existing one, our web
+            development services are tailored to meet your unique needs.
           </p>
           <a href="#" class="btn">Read More</a>
         </div>
@@ -93,9 +96,10 @@ fi<!DOCTYPE html>
           <i class="bx bxs-paint"></i>
           <h3>Graphic Designing</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            error obcaecati ea quibusdam, maiores quam. Optio quasi tenetur unde
-            molestias?
+            Elevate your brand with captivating visuals! Our graphic designing
+            services cover everything from eye-catching logos to stunning
+            promotional materials. Let us bring your ideas to life with creative
+            and impactful design solutions.
           </p>
           <a href="#" class="btn">Read More</a>
         </div>
@@ -103,9 +107,10 @@ fi<!DOCTYPE html>
           <i class="bx bx-bar-chart-alt"></i>
           <h3>Digital Marketing</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-            error obcaecati ea quibusdam, maiores quam. Optio quasi tenetur unde
-            molestias?
+            Boost your online presence and reach your target audience with our
+            digital marketing expertise. From strategic planning to execution, we
+            provide comprehensive solutions to drive traffic, engagement, and
+            conversions for your business.
           </p>
           <a href="#" class="btn">Read More</a>
         </div>
@@ -123,8 +128,8 @@ fi<!DOCTYPE html>
           <div class="portfolio-layer">
             <h4>DISNEY-PLUS CLONE</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              quae.
+              A recreation of the Disney+ interface with features like 
+              user authentication.
             </p>
             <a href="https://disneyplus-clone-7da4a.web.app/"><i class="bx bx-link-external"></i></a>
           </div>
@@ -135,8 +140,8 @@ fi<!DOCTYPE html>
           <div class="portfolio-layer">
             <h4>GPT-3 UI/UX</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              quae.
+              A creation of UI/UX for an AI content base webpage. Fully
+              responsive
             </p>
             <a href="https://gpt-3-1b309.web.app/"><i class="bx bx-link-external"></i></a>
           </div>
@@ -147,8 +152,7 @@ fi<!DOCTYPE html>
           <div class="portfolio-layer">
             <h4>BANK UI/UX</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              quae.
+              A fully responsive User Interface for a Modern Bank.
             </p>
             <a href="https://hoo-bank-d1297.web.app/"><i class="bx bx-link-external"></i></a>
           </div>
@@ -159,8 +163,8 @@ fi<!DOCTYPE html>
           <div class="portfolio-layer">
             <h4>RESTAURENT UI/UX</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              quae.
+              A beautiful fully responsive User Interface for a
+              5 star RESTAURENT
             </p>
             <a href="https://shangril-la-ce55a.web.app/"><i class="bx bx-link-external"></i></a>
           </div>
@@ -171,8 +175,7 @@ fi<!DOCTYPE html>
           <div class="portfolio-layer">
             <h4>PORTFOLIO</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
-              quae.
+              PORTFOLIO
             </p>
             <a href="https://portfolio-ff59a.web.app/#"><i class="bx bx-link-external"></i></a>
           </div>
@@ -195,17 +198,17 @@ fi<!DOCTYPE html>
     <!--contact-->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
-
-      <form action="#">
+    
+      <form action="#" onsubmit="return validateForm()">
         <div class="input-box">
-          <input type="text" placeholder="Full Name" />
-          <input type="email" placeholder="Email Address" />
+          <input type="text" id="fullName" placeholder="Full Name" />
+          <input type="email" id="emailAddress" placeholder="Email Address" />
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Mobile Number" />
-          <input type="text" placeholder="Email subject" />
+          <input type="text" id="phoneNumber" placeholder="Mobile Number" />
+          <input type="text" id="emailSubject" placeholder="Email Subject" />
         </div>
-        <textarea cols="30" rows="10" placeholder="Your Message"> </textarea>
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn"/>
       </form>
     </section>

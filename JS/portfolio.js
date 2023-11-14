@@ -58,3 +58,29 @@ const typed = new Typed(".multiple-text", {
     backDelay: 1000,
     loop: true
 });
+
+
+// email validation //
+
+function validateForm() {
+    var fullName = document.getElementById("fullName").value;
+    var emailAddress = document.getElementById("emailAddress").value;
+    var emailSubject = document.getElementById("emailSubject").value;
+    var message = document.getElementById("message").value;
+
+    // Check if required fields are filled
+    if (fullName === "" || emailAddress === "" || emailSubject === "" || message === "") {
+      alert("Please fill in all required fields (Full Name, Email Address, Email Subject, and Message).");
+      return false;
+    }
+
+    // Check if the email is valid
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(emailAddress)) {
+      alert("Please enter a valid email address.");
+      return false;
+    }
+
+    // If all validations pass, the form will be submitted
+    return true;
+  }
